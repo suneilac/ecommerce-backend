@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "devStart": "nodemon server.js"
+    "devStart": "nodemon server.js",
+    "dbSetup": "nodemon dbSetup.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
+    "mongodb": "^5.1.0",
     "mongoose": "^7.0.3"
   },
   "devDependencies": {
